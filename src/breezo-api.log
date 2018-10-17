@@ -1,0 +1,29 @@
+INFO:root:connecting to localhost:27017
+INFO:werkzeug: * Running on http://0.0.0.0:3010/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:connecting to localhost:27017
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 328-278-840
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2018 15:21:06] "OPTIONS /services/c02cd26e-b0e5-4050-a9b2-ced7fbf25755/properties?limit=500&keyword=&tenant=dev HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2018 15:21:06] "GET /services/c02cd26e-b0e5-4050-a9b2-ced7fbf25755/properties?limit=500&keyword=&tenant=dev HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2018 15:21:07] "OPTIONS /services/d1581e03-9b4d-4b8f-9d74-a48e51c18043/properties?limit=500&keyword=&tenant=dev HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2018 15:21:07] "GET /services/d1581e03-9b4d-4b8f-9d74-a48e51c18043/properties?limit=500&keyword=&tenant=dev HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2018 15:21:08] "GET /services/d1581e03-9b4d-4b8f-9d74-a48e51c18043/properties?limit=500&keyword=&tenant=dev HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2018 15:21:10] "OPTIONS /services/7fec6fda-b96b-42bc-b008-6acd0d2316f1/properties?limit=500&keyword=&tenant=dev HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2018 15:21:10] "GET /services/7fec6fda-b96b-42bc-b008-6acd0d2316f1/properties?limit=500&keyword=&tenant=dev HTTP/1.1" 200 -
+INFO:root:connecting to localhost:27017
+INFO:werkzeug: * Running on http://0.0.0.0:3010/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:connecting to localhost:27017
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 328-278-840
+INFO:werkzeug: * Detected change in '/opt/dev/code/breezo-api/src/utils/mongo_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 328-278-840
+INFO:werkzeug: * Detected change in '/opt/dev/code/breezo-api/src/utils/mongo_db.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
