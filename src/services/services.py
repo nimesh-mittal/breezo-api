@@ -56,3 +56,11 @@ class ServiceService:
         id = self.client.insert_one(self.db_name, "services", app).inserted_id
         del  app['_id']
         return to_json(app)
+
+    def get_service_by_name(self, service_name):
+        output, count =self.client.find(self.db_name, "services", {'name': service_name})
+        result = {}
+        for service in output:
+            result = service
+            del result['_id']
+        return to_json(result)

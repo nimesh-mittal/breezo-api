@@ -2,6 +2,7 @@ from flask import Flask
 from flask_restful import Api
 
 from src.resources.service import ServiceResource
+from src.resources.service_name import ServiceNameResource
 from src.resources.service_list import ServiceListResource
 
 from src.resources.property import PropertyResource
@@ -14,6 +15,7 @@ CORS(app)
 
 api = Api(app)
 
+api.add_resource(ServiceNameResource, '/services/_name/<string:service_name>')
 api.add_resource(ServiceResource, '/services/<string:service_id>')
 api.add_resource(ServiceListResource, '/services')
 

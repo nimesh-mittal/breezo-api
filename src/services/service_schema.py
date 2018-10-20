@@ -13,7 +13,8 @@ def list_arg_schema():
 
 def id_path_schema():
     prop = {
-        "service_id": Prop().string().max(100).min(1).build()
+        "service_id": Prop().string().max(100).min(1).build(),
+        "service_name": Prop().string().max(100).min(1).build()
     }
 
     return Schema().keys(prop).required([]).build()
